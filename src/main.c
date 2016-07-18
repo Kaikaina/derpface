@@ -16,7 +16,7 @@ static void update_time() {
   static char buffer[] = "00:00";
 
   // format the way that the time text is going to be displayed
-strftime(buffer, sizeof("00:00"),"%H*%M", tick_time);
+strftime(buffer, sizeof("00:00"),"%I*%M", tick_time);
 
 
   // Display this time on the TextLayer
@@ -37,7 +37,7 @@ static void main_window_load(Window *window) {
   //time layer
   s_time_layer = text_layer_create(GRect(15, 141, 120, 40));
   text_layer_set_background_color(s_time_layer, GColorClear);
-  text_layer_set_text_color(s_time_layer, GColorBlack);
+  text_layer_set_text_color(s_time_layer, GColorWhite);
   text_layer_set_text(s_time_layer, "00:00");
 
   // Improve the layout to be more like a watchface

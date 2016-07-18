@@ -17,10 +17,10 @@
         "resources": {
             "media": [
                 {
-                    "file": "images/asl_resized_mono.png",
+                    "file": "images/download.png",
                     "name": "SPARK_ICON",
                     "targetPlatforms": null,
-                    "type": "png"
+                    "type": "bitmap"
                 },
                 {
                     "file": "fonts/8-BIT WONDER.TTF",
