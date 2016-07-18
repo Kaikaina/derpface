@@ -19,6 +19,7 @@
                 {
                     "file": "images/asl_resized_mono.png",
                     "name": "SPARK_ICON",
+                    "targetPlatforms": null,
                     "type": "png"
                 },
                 {
